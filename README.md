@@ -14,9 +14,9 @@ These instructions will help you get a copy of the project up and running on you
 
 1. Clone the repository to your local machine:
 
-   ```
-   git clone https://github.com/anaProdigy/url-data-fetcher
-   ```
+```
+git clone https://github.com/anaProdigy/url-data-fetcher
+```
 
 2. Navigate to the project directory:
 
