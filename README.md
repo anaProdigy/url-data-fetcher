@@ -14,13 +14,13 @@ These instructions will help you get a copy of the project up and running on you
 
 1. Clone the repository to your local machine:
 
-   ```shell
-   git clone ['https://github.com/anaProdigy/url-form-display']
+   ```
+   git clone https://github.com/anaProdigy/url-data-fetcher
+   ```
 
 Navigate to the project directory:
 
-```shell
-Copy code
+```
 cd [project-directory]
 ```
 
