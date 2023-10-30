@@ -21,7 +21,7 @@ These instructions will help you get a copy of the project up and running on you
 Navigate to the project directory:
 
 ```
-cd [project-directory]
+cd url-data-fetcher
 ```
 
 Install the project dependencies:
