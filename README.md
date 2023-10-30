@@ -18,19 +18,19 @@ These instructions will help you get a copy of the project up and running on you
    git clone https://github.com/anaProdigy/url-data-fetcher
    ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```
 cd url-data-fetcher
 ```
 
-Install the project dependencies:
+3. Install the project dependencies:
 
 ```
 npm install
 ```
 
-Running the App
+4. Running the App
 Once you've installed the dependencies, you can start the app locally.
 
 Start the development server:
