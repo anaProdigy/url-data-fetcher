@@ -33,14 +33,16 @@ const ApiFetch = () => {
        <button type="submit">SUBMIT</button>
       </form>
       <h2>
-        Display Data
+        Your Data
       </h2>
-      
-      {data && (
+
+      {data ? (
         <div>
-          <h3>Fetched Data:</h3>
+          
           <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
+      ):(
+        <h4>Sorry, nothing to show</h4>
       )}
     </div>
   );
