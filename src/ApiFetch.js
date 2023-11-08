@@ -2,12 +2,15 @@ import React, { useState } from 'react';
 
 
 const ApiFetch = () => {
-  const [url, setUrl] = useState('');
+  // const [url, setUrl] = useState('');
   const [data, setData] = useState(null);
 
-  const fetchData = async () => {
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(e.target.elements)
+    const {url} = e.target.elements
     try {
-      const response = await fetch(url);
+      const response = await fetch(url.value);
       if (!response.ok) {
         throw new Error("Network Error");
       }
@@ -22,12 +25,9 @@ const ApiFetch = () => {
   return (
     <div>
       <h1>Api Data Fetcher</h1>
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        fetchData();
-      }}>
+      <form onSubmit={handleSubmit}>
         <label>
-          <input type="text" value={url} onChange={(e) => setUrl(e.target.value)} required>
+          <input name="url" type="text" required>
           </input>
         </label>
        <button type="submit">SUBMIT</button>
